@@ -127,5 +127,94 @@ span{
    width: 150px; /*largura do button*/
    background-color: #12122b; /*cor do fundo*/
    color: #383845; /*cor do texto*/
-   font
+   font-weight: 800; /*espessura da letra*/
+   border: none; /*remover borda*/
+   border-radius: 20px; /*alterar a borda do button*/
+   cursor: pointer; /*alterar o cursor*/
+}
+
+/*section 04*/
+.section-04 div{
+    width: 300px; /*largura*/
+    height: 300px; /*altura*/
+    background-color: #12122b; /*cor do fundo*/
+    padding: 15px; /*preenchimento*/
+    text-align: center; /*alinhamento de texto*/
+}
+
+/* formatação das div */
+.section-04{
+    display: flex; /*deixar lado a lado*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    gap: 30px; /*espaço entre as div*/
+    padding: 60px; /*preenchimento interno*/
+    background-color: #12122b; /*cor de fundo*/
+}
+
+/*estilizando a div02*/
+.caixa-02{
+    background-image: url(imagens/motor.jpg);/*inserir img*/
+    background-position: center; /*definir posição*/
+    background-repeat: no-repeat; /*não repetir img*/
+    background-size: cover; /*preencher img*/
+}
+
+/*estilizando titulo*/
+.caixa-01 h2{
+    font-size: 32px; /*tamanho da letra*/
+    text-transform: uppercase; /*caixa alta*/
+    margin-top: 30px;/*espaçamento superior*/
+}
+
+/*estilizando paragrafo*/
+.caixa-01 p{
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*espessura da letra*/
+}
+
+.fa-star, .fa-star-half{
+    font-size: 30px; /*tamanho da letra*/
+    color: #383845;
+}
+
+.fa-instagram{
+    font-size: 70px; /*tamanho da letra*/
+    margin-top: 30px;/*espaçamento superior*/
+    margin-bottom: 15px; /*margem do botão*/
+    color: #383845; /*cor do icon*/
+}
+
+.caixa-03{
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*espessura da letra*/
+}
+
+/*estilizando o button caixa 03*/
+.caixa-03 button{
+    padding: 7px; /*preenchimento interno*/
+    background-color: #12122b; /*cor de fundo*/
+    color: #383845; /*cor do botao*/
+    width: 130px; /*largura do botao*/
+    border: none; /*remover borda*/
+}
+
+footer{
+    background-color: #12122b; /*cor de fundo*/
+    padding: 80px; /*preenchimento interno*/
+    color: #383845; /*cor do texto*/
+    display: flex; /*deixar lado a lado*/
+    align-items: center; /*alinhar texto*/
+    justify-content: center; /*justificar itens*/
+    flex-direction: column; /*deixar os itens em coluna*/
+}
+
+.caixa-icon i{
+    color: #383845; /*cor do icon*/
+    font-size: 35px; /*tamanho do icon*/
+    margin: 7px; /*margem do icon*/
+}
+
+.caixa-footer{
+    text-align: center; /*alinhar texto*/
 }
