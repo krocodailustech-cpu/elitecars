@@ -1,0 +1,131 @@
+/*Margen do site*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*estilizando o header*/
+header{
+    padding: 25px; /*preenchimento interno*/
+    justify-content: space-evenly; /*justificar no centro*/
+    align-items: center; /*alinhamento vertical*/
+    display: flex; /*deixar os itens lado a lado*/
+    background-color: #12122b; /*cor do fundo*/
+}
+
+/*estilizando o icon*/
+header img{
+    width: 100px; /*larguyra da img*/
+}
+
+/*estilizando o h1*/
+header h1{
+    font-family: 'Times New Roman', Times, serif; /*fonte do texto*/
+    font-size: 36px; /*tamanho da letra*/
+    color: #aaaa91; /*cor do texto*/
+}
+
+/*estiliizando a list*/
+.list-menu ul{
+    justify-content: center; /*justificar no centro*/
+    display: flex; /*deixar os itens lado a lado*/
+    gap: 20px; /*espaçamento enttre as (li)*/
+}
+
+.list-menu ul li{
+    list-style: none;
+}
+
+.list-menu ul li a{
+    text-decoration: none; /*remover sublinhado*/
+    color: #aaaa91; /*cor do texto*/
+}
+
+/*fim do cabecalho*/
+
+/*sections*/
+
+.img-section-01{
+    width: 260px; /*largura da img*/
+    margin-left: 20px; /*margem da esquerda*/
+}
+
+.section-01{
+    display: flex; /*deixar os itens lado a lado*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*justificar no centro*/
+    flex-direction: row; /*direção das caixas*/
+    padding: 40px; /*preenchimento interno*/
+    gap: 60px; /*espaçamento enttre as (li)*/
+    background-color: #12122b; /*cor do fundo*/
+}
+
+.div-02 p{
+    color: #aaaa91; /*cor do texto*/
+    font-size: 32px; /*tamanho da letra*/
+    margin-left: 30px; /*margem da esquerda*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+/*texto em destaque da section 01*/
+
+span{
+    color:#383845; /*cor do texto*/
+    font-size: 40px; /*tamanho da letra do span*/
+}
+
+/*final da section 01*/
+
+/*section 02*/
+/*icones são manipulados como texto*/
+
+.fa-brands{
+    font-size: 60px; /*tamanho do icone*/
+    color: #aaaa91; /*cor do icone*/
+}
+
+.section-02{
+    background-color: #12122b; /*cor do fundo*/
+    padding: 50px;  /*preenchimento interno*/
+    color: #383845; /*cor das letrras (H2 e P)*/
+    display: flex; /*deixar os itens lado a lado*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*justificar no centro*/
+    flex-direction: column; /*direção das caixas*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+.paragrafo-section-2 h2{
+    font-size: 30px; /*tamanho do icone*/
+    text-transform: uppercase; /*tornando o texto em caixa alta*/
+}
+
+.paragrafo-section-2 p{
+    font-size: 25px; /*tamanho da letra*/
+}
+
+.div-icon{
+    display: flex; /*deixar os itens lado a lado*/
+    gap: 20px; /*espaçamento entre os icones*/
+}
+
+/*inicio da section 03*/
+.section-03{
+    background-image: url(imagens/planta\ car.jpg); /*imagem do fundo*/
+    background-repeat: no-repeat; /*não repetir*/
+    background-size: cover; /*cobrir fundo*/
+    background-position: center; /*definir posição da imagem*/
+    background-attachment: fixed; /*deixar a imagem parada*/
+    padding: 200px; /*definir tamanho*/
+    display: flex; /*deixar lado a lado*/
+    align-items: center; /*alinhar itens*/
+    justify-content: center; /*justificar itens*/
+}
+
+.section-03 button{
+   padding: 20px; /*preenchimento interno*/
+   width: 150px; /*largura do button*/
+   background-color: #12122b; /*cor do fundo*/
+   color: #383845; /*cor do texto*/
+   font
+}
