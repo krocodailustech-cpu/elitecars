@@ -15,7 +15,7 @@ header{
 
 /*estilizando o icon*/
 header img{
-    width: 100px; /*larguyra da img*/
+    width: 100px; /*largura da img*/
 }
 
 /*estilizando o h1*/
@@ -33,7 +33,7 @@ header h1{
 }
 
 .list-menu ul li{
-    list-style: none;
+    list-style: none; /*estilo da lista*/
 }
 
 .list-menu ul li a{
@@ -87,7 +87,7 @@ span{
 .section-02{
     background-color: #000000; /*cor do fundo*/
     padding: 50px;  /*preenchimento interno*/
-    color: #383845; /*cor das letrras (H2 e P)*/
+    color:  #aaaa91 ; /*cor das letrras (H2 e P)*/
     display: flex; /*deixar os itens lado a lado*/
     align-items: center; /*alinhamento vertical*/
     justify-content: center; /*justificar no centro*/
@@ -126,11 +126,16 @@ span{
    padding: 20px; /*preenchimento interno*/
    width: 150px; /*largura do button*/
    background-color: #000000; /*cor do fundo*/
-   color: #383845; /*cor do texto*/
+   color: gold; /*cor do texto*/
    font-weight: 800; /*espessura da letra*/
    border: none; /*remover borda*/
    border-radius: 20px; /*alterar a borda do button*/
    cursor: pointer; /*alterar o cursor*/
+}
+
+.botao-galeria{
+    text-decoration: none; /*estilo do texto*/
+    color: gold; /*cor do teto*/
 }
 
 /*section 04*/
@@ -150,6 +155,11 @@ span{
     gap: 30px; /*espaço entre as div*/
     padding: 60px; /*preenchimento interno*/
     background-color:#000000; /*cor de fundo*/
+}
+
+.caixa-01{
+    color:gold;
+    margin: 15px;
 }
 
 /*estilizando a div02*/
@@ -175,38 +185,44 @@ span{
 
 .fa-star, .fa-star-half{
     font-size: 30px; /*tamanho da letra*/
-    color: #383845;
+    color: gold;
+    margin: 7px;
 }
 
 .fa-instagram{
     font-size: 70px; /*tamanho da letra*/
     margin-top: 30px;/*espaçamento superior*/
     margin-bottom: 15px; /*margem do botão*/
-    color: #383845; /*cor do icon*/
+    color: gold; /*cor do icon*/
+    margin: 20px; 
 }
 
 .caixa-03{
     font-size: 20px; /*tamanho da letra*/
     font-weight: 700; /*espessura da letra*/
+    color: gold;
 }
 
 /*estilizando o button caixa 03*/
 .caixa-03 button{
     padding: 7px; /*preenchimento interno*/
     background-color: #12122b; /*cor de fundo*/
-    color: #383845; /*cor do botao*/
+    color: gold; /*cor do botao*/
     width: 130px; /*largura do botao*/
     border: none; /*remover borda*/
+    border-radius: 70px; /*borda do botão*/
+    margin: 35px;
 }
 
 footer{
     background-color: #0c1815; /*cor de fundo*/
     padding: 80px; /*preenchimento interno*/
-    color: #383845; /*cor do texto*/
+    color: gold; /*cor do texto*/
     display: flex; /*deixar lado a lado*/
     align-items: center; /*alinhar texto*/
     justify-content: center; /*justificar itens*/
     flex-direction: column; /*deixar os itens em coluna*/
+    font-weight: 700; /*espessura da letra*/
 }
 
 .caixa-icon i{
