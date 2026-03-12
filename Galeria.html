@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<title>Galeria - Elite Cars</title>
-<link rel="stylesheet" href="galeria.css">
+    <meta charset="UTF-8">
+    <title>Galeria - Elite Cars</title>
+    <link rel="stylesheet" href="galeria.css">
 </head>
 
 <body>
 
     <header>
-<h1>Nossa Galeria</h1>
+        <h1>Nossa Galeria</h1>
 
-<div class="galeria">
+        <div class="galeria">
 
-<img src="imagens/GT-40.png" alt="Carro 1">
-<img src="imagens/buick-70.png" alt="Carro 2">
-<img src="imagens/mustang-70.png" alt="Carro 3">
-<img src="imagens/omega.png" alt="Carro 4">
+            <img src="imagens/GT-40.png" alt="Ford gt 40">
+            <img src="imagens/buick-70.png" alt="Buick ano 70">
+            <img src="imagens/mustang-70.png" alt="Mustang ano 70">
+            <img src="imagens/omega.png" alt="Omega">
 
-</div>
-</header>
+        </div>
+    </header>
 
-<footer><a href="index.html" class="botao-voltar">Voltar</a></footer>
+    <footer><a href="index.html" class="botao-voltar">Voltar</a></footer>
 
+    <!-- libras para maior acessibilidade -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
+
 </html>
