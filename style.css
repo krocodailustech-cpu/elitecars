@@ -10,7 +10,7 @@ header{
     justify-content: space-evenly; /*justificar no centro*/
     align-items: center; /*alinhamento vertical*/
     display: flex; /*deixar os itens lado a lado*/
-    background-color: #12122b; /*cor do fundo*/
+    background-color:#0c1815; /*cor do fundo*/
 }
 
 /*estilizando o icon*/
@@ -45,9 +45,9 @@ header h1{
 
 /*sections*/
 
-.img-section-01{
+.div-01{
     width: 260px; /*largura da img*/
-    margin-left: 20px; /*margem da esquerda*/
+    margin-left: 0px; /*margem da esquerda*/
 }
 
 .section-01{
@@ -57,7 +57,7 @@ header h1{
     flex-direction: row; /*direção das caixas*/
     padding: 40px; /*preenchimento interno*/
     gap: 60px; /*espaçamento enttre as (li)*/
-    background-color: #12122b; /*cor do fundo*/
+    background-color:#000000 /*cor do fundo*/
 }
 
 .div-02 p{
@@ -70,7 +70,7 @@ header h1{
 /*texto em destaque da section 01*/
 
 span{
-    color:#383845; /*cor do texto*/
+    color:gold; /*cor do texto*/
     font-size: 40px; /*tamanho da letra do span*/
 }
 
@@ -85,7 +85,7 @@ span{
 }
 
 .section-02{
-    background-color: #12122b; /*cor do fundo*/
+    background-color: #000000; /*cor do fundo*/
     padding: 50px;  /*preenchimento interno*/
     color: #383845; /*cor das letrras (H2 e P)*/
     display: flex; /*deixar os itens lado a lado*/
@@ -125,7 +125,7 @@ span{
 .section-03 button{
    padding: 20px; /*preenchimento interno*/
    width: 150px; /*largura do button*/
-   background-color: #12122b; /*cor do fundo*/
+   background-color: #000000; /*cor do fundo*/
    color: #383845; /*cor do texto*/
    font-weight: 800; /*espessura da letra*/
    border: none; /*remover borda*/
@@ -137,7 +137,7 @@ span{
 .section-04 div{
     width: 300px; /*largura*/
     height: 300px; /*altura*/
-    background-color: #12122b; /*cor do fundo*/
+    background-color: #000000; /*cor do fundo*/
     padding: 15px; /*preenchimento*/
     text-align: center; /*alinhamento de texto*/
 }
@@ -149,7 +149,7 @@ span{
     justify-content: space-evenly; /*alinhamento horizontal*/
     gap: 30px; /*espaço entre as div*/
     padding: 60px; /*preenchimento interno*/
-    background-color: #12122b; /*cor de fundo*/
+    background-color:#000000; /*cor de fundo*/
 }
 
 /*estilizando a div02*/
@@ -200,7 +200,7 @@ span{
 }
 
 footer{
-    background-color: #12122b; /*cor de fundo*/
+    background-color: #0c1815; /*cor de fundo*/
     padding: 80px; /*preenchimento interno*/
     color: #383845; /*cor do texto*/
     display: flex; /*deixar lado a lado*/
