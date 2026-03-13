@@ -1,10 +1,10 @@
 body{
     font-family: "Quintessential", serif;
 }
-/*Margen do site*/
+/*Margens do site*/
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0px; /*preenchimento interno*/
+    margin: 0px; /*margem*/
 }
 
 /*estilizando o header*/
@@ -45,10 +45,10 @@ header h1{
 }
 
 .form{
-    text-decoration: none;
-    border: none;
-    background-color: #0c1815;
-    color: #aaaa91;
+    text-decoration: none; /*remover sublinhado*/
+    border: none; /*estilo da borda*/
+    background-color: #0c1815;/*cor do fundo*/
+    color: #aaaa91; /*cor do texto*/
      font-size: 17px; /*tamanho da letra*/
     font-family: 'Times New Roman', Times, serif; /*fonte do texto*/
     cursor: pointer; /*alterar cursor*/

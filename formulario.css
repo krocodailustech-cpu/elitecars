@@ -1,72 +1,70 @@
-
-
-
 body{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Quintessential", serif;
+    /*margem*/
+    margin: 0px; /*margem da pagina*/
+    padding: 0px; /*preenchimento da pagina*/
 
-    background-image: url(imagens/mikefoster-mustang-778263_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /*img*/
+    box-sizing: border-box; /*altura e largura*/
+    font-family: "Quintessential", serif; /*fonte*/
+    background-image: url(imagens/mikefoster-mustang-778263_1920.jpg); /*imagem de fundo*/
+    background-size: cover; /*cobrir fundo da img*/
+    background-position: center; /*posição da img*/
+    background-repeat: no-repeat; /*não repetir img*/
+    height: 100px; /*altura da img*/
+    min-height: 100vh; /*expandir img na tela*/
+    display: flex; /*deixar lado a lado*/
+    justify-content: center; /*justificar no centro*/
+    align-items: center; /*alinhamento vertical*/
 
-    height: 100px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: gold;
+    /*cores*/
+    color: gold; /*cor do texto*/
 }
 
 .form-container{
-    background-color:#0c1815;
+    background-color:#0c1815; /*cor do fundo*/
+    padding: 40px; /*preenchimento do interior*/
+    border-radius: 10px; /*estilo da borda*/
+    width: 300px; /*largura da img*/
 
-    padding: 40px;
-    border-radius: 10px;
-
-    width: 300px;
-
-    color: gold;
-
-    box-shadow: 0px 0px 20px #0c1815;
+    /*cores*/
+    color: gold; /*cor do texto*/
+    box-shadow: 0px 0px 20px #0c1815; /*cor da caixa*/
 }
 
 .form-container h2{
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /*alinhamento do texto*/
+    margin-bottom: 20px; /*margem do botao*/
 }
 
 form{
-    display: flex;
-    flex-direction: column;
+    display: flex; /*deixar lado a lado*/
+    flex-direction: column; /*deixar item em coluna*/
 }
 
 label{
-    margin-top: 10px;
+    margin-top: 10px; /*margem de cima*/
 }
 
 input{
-    padding: 10px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
+    padding: 10px;  /*preenchimento do interior*/
+    margin-top: 5px;  /*margem de cima*/
+    border: none; /*remover borda*/
+    border-radius: 5px; /*estilo da borda*/
 }
 
 button{
-    margin-top: 0px;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
+    margin-top: 0px; /*margem de cima*/
+    padding: 12px; /*preenchimento do interior*/
+    border: none;  /*remover borda*/
+    border-radius: 5px; /*estilo da borda*/
 
-    background-color: gold;
-    color: #0c1815;
+    background-color: gold; /*cor do fundo*/
+    color: #0c1815; /*cor do texto*/
 
-    font-weight: bold;
-    cursor: pointer;
+    font-weight: bold; /*espessura da letra*/
+    cursor: pointer; /*alterar cursor*/
 }
 
 button:hover{
-    background-color: orange;
+    background-color: orange; /*cor do fundo*/
 }
