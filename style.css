@@ -14,6 +14,10 @@ header{
     align-items: center; /*alinhamento vertical*/
     display: flex; /*deixar os itens lado a lado*/
     background-color:#0c1815; /*cor do fundo*/
+    position:sticky; /*faz com que o elemento fique grudado na tela quando o usuario rolar a pagina*/
+    top: 0; /*define que o elemento ficara preso ao topo da tela*/
+    left: 0; /*define o alinhamento a esquera da pagina*/
+    z-index: 1; /*controla a sobreposição do elemento sobre outros elementos da pagina*/
 }
 
 /*estilizando o icon*/
