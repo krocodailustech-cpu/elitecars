@@ -1,10 +1,9 @@
-body{
-    font-family: "Quintessential", serif;
-}
 /*Margens do site*/
 *{
     padding: 0px; /*preenchimento interno*/
     margin: 0px; /*margem*/
+    scroll-behavior: smooth; /*deslize de atalho dos botoes do header*/
+    font-family: "Quintessential", serif; /*fonte do texto*/
 }
 
 /*estilizando o header*/
@@ -46,6 +45,11 @@ header h1{
 .list-menu ul li a{
     text-decoration: none; /*remover sublinhado*/
     color: #aaaa91; /*cor do texto*/
+}
+
+.list-menu ul li a:hover {
+    color: yellow;
+
 }
 
 .form{
@@ -155,6 +159,12 @@ span{
     color: gold; /*cor do teto*/
 }
 
+.botao-galeria:hover{
+    color: white;
+    background-color: red;
+
+}
+
 /*section 04*/
 .section-04 div{
     width: 300px; /*largura*/
@@ -162,6 +172,11 @@ span{
     background-color: #000000; /*cor do fundo*/
     padding: 15px; /*preenchimento*/
     text-align: center; /*alinhamento de texto*/
+    box-shadow: 10px 10px 20px black;
+}
+
+.section-04 div:hover {
+    
 }
 
 /* formatação das div */
