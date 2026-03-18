@@ -19,6 +19,20 @@ header{
     z-index: 1; /*controla a sobreposição do elemento sobre outros elementos da pagina*/
 }
 
+.whatsapp img{ /*alterando o icon do whattsapp*/
+    width: 50px; /*largura*/
+}
+
+.whatsapp{ /*div que guarda o icon whattasapp*/
+    position: fixed; /*posicionamento*/
+    right: 25px; /*posiçao a dieita*/
+    bottom: 25px; /*posicição ao bottom*/
+}
+
+.whatsapp img:hover{
+    width: 60px; /*largura*/
+    transition: 0.8s; /*tempo de transição*/
+}
 /*estilizando o icon*/
 header img{
     width: 100px; /*largura da img*/
@@ -26,7 +40,6 @@ header img{
 
 /*estilizando o h1*/
 header h1{
-    font-family: 'Times New Roman', Times, serif; /*fonte do texto*/
     font-size: 36px; /*tamanho da letra*/
     color: #aaaa91; /*cor do texto*/
 }
@@ -48,7 +61,7 @@ header h1{
 }
 
 .list-menu ul li a:hover {
-    color: yellow;
+    color: yellow; /*cor do texto*/
 
 }
 
@@ -159,12 +172,6 @@ span{
     color: gold; /*cor do teto*/
 }
 
-.botao-galeria:hover{
-    color: white;
-    background-color: red;
-
-}
-
 /*section 04*/
 .section-04 div{
     width: 300px; /*largura*/
@@ -172,11 +179,12 @@ span{
     background-color: #000000; /*cor do fundo*/
     padding: 15px; /*preenchimento*/
     text-align: center; /*alinhamento de texto*/
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 3px 5px 40px gold; /*cor da sombra*/
 }
 
-.section-04 div:hover {
-    
+.section-04 div:hover{
+    box-shadow: 6px 10px 80px gold; /*cor da sombra*/
+    transition: 0.5s; /*efeito de movimwnto*/
 }
 
 /* formatação das div */
@@ -217,8 +225,8 @@ span{
 
 .fa-star, .fa-star-half{
     font-size: 30px; /*tamanho da letra*/
-    color: gold;
-    margin: 7px;
+    color: gold; /*cor do texto*/
+    margin: 7px; /*cor do texto*/
 }
 
 .fa-instagram{
@@ -226,13 +234,17 @@ span{
     margin-top: 30px;/*espaçamento superior*/
     margin-bottom: 15px; /*margem do botão*/
     color: gold; /*cor do icon*/
-    margin: 20px; 
+    margin: 20px; /*margem*/
+}
+
+.fa-instagram:hover{
+    box-shadow: 10px 10px 20px gold; /*cor da sombra*/
 }
 
 .caixa-03{
     font-size: 20px; /*tamanho da letra*/
     font-weight: 700; /*espessura da letra*/
-    color: gold;
+    color: gold; /*cor do texto*/
 }
 
 /*estilizando o button caixa 03*/
@@ -243,7 +255,7 @@ span{
     width: 130px; /*largura do botao*/
     border: none; /*remover borda*/
     border-radius: 70px; /*borda do botão*/
-    margin: 35px;
+    margin: 35px; /*margem*/
 }
 
 footer{
